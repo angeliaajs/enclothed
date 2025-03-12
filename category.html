@@ -1,0 +1,69 @@
+<script>
+    function showCategory(category) {
+        const productSlider = document.getElementById('productSlider');
+        productSlider.innerHTML = ''; // Kosongkan slider produk
+
+let products = [];
+
+if (category === 'men') {
+products = [
+    {
+        name: "Jaket Bomber Ringan",
+        price: "IDR 150.000",
+        img: "assets/img/product/jaket bomber ringan.jpg"
+    },
+    {
+        name: "Men's Jeans",
+        price: "IDR 300.000",
+        img: "assets/img/product/mens-jeans.jpg"
+    },
+    {
+        name: "Men's Jacket",
+        price: "IDR 450.000",
+        img: "assets/img/product/mens-jacket.jpg"
+    }
+];
+} else if (category === 'women') {
+products = [
+    {
+        name: "Women's Dress",
+        price: "IDR 250.000",
+        img: "assets/img/product/womens-dress.jpg"
+    },
+    {
+        name: "Women's Skirt",
+        price: "IDR 200.000",
+        img: "assets/img/product/womens-skirt.jpg"
+    },
+    {
+        name: "Women's Blouse",
+        price: "IDR 180.000",
+        img: "assets/img/product/womens-blouse.jpg"
+    }
+];
+}
+
+// Tambahkan produk ke slider
+products.forEach(product => {
+const productCol = document.createElement('div');
+productCol.className = 'col-md-3';
+productCol.innerHTML = `
+    <img src="${product.img}" alt="${product.name}" class="my-3 rounded">
+    <div class="row">
+        <div class="col-10">
+            <p>${product.name}</p>
+        </div>
+        <div class="col-2">
+            <i class="bi bi-heart"></i>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <p class="fw-bold">${product.price}</p>
+        </div>
+    </div>
+`;
+productSlider.appendChild(productCol);
+});
+}
+</script>

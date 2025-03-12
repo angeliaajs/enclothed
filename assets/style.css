@@ -5,3 +5,19 @@ section {
 img {
     width: 100%;
 }
+
+#new-arrivals .product-slider {
+    display: flex; /* Menggunakan Flexbox untuk layout */
+    overflow-x: auto; /* Mengizinkan scroll horizontal */
+    padding: 20px 0; /* Jarak atas dan bawah */
+}
+
+#new-arrivals .product-slider .row {
+    display: flex; /* Menggunakan Flexbox untuk baris produk */
+    flex-wrap: nowrap; /* Mencegah baris baru */
+}
+
+#new-arrivals .product-slider .col-md-3 {
+    flex: 0 0 auto; /* Membuat kolom tidak fleksibel dan tetap pada ukuran aslinya */
+    margin-right: 20px; /* Jarak antar gambar */
+}
