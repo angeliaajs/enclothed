@@ -177,133 +177,181 @@ const products = [
         category: "Women"
     },
     {
-        "id": 17,
-        "name": "Bomber Jacket",
-        "price": 425000,
-        "currency": "IDR",
-        "image": "assets/img/product/jaket bomber ringan.jpg",
-        "category": "Men"
-      },
-      {
-        "id": 18,
-        "name": "Relief Cambridge T-Shirt",
-        "price": 350000,
-        "currency": "IDR",
-        "image": "assets/img/product/kaus teks relief cambridge.jpg",
-        "category": "Men"
-      },
-      {
-        "id": 19,
-        "name": "Cotton Linen Shirts",
-        "price": 332000,
-        "currency": "IDR",
-        "image": "assets/img/product/kemeja linen katun.jpg",
-        "category": "Men"
-      },
-      {
-        "id": 20,
-        "name": "Striped Jacquard Polo Shirt",
-        "price": 385000,
-        "currency": "IDR",
-        "image": "assets/img/product/KEMEJA POLO JACQUARD BERGARIS.jpg",
-        "category": "Men"
-      },
-      {
-        "id": 21,
-        "name": "Sweatshirt Plain Hooded",
-        "price": 560000,
-        "currency": "IDR",
-        "image": "assets/img/product/SWEATSHIRT PLAIN HOODED.jpg",
-        "category": "Men"
-      },
-      {
-        "id": 22,
-        "name": "Imitation Leather Jacket",
-        "price": 645000,
-        "currency": "IDR",
-        "image": "assets/img/product/IMITATION LEATHER JACKET.jpg",
-        "category": "Men"
-      },
-      {
-        "id": 23,
-        "name": "Basic Sweatshirt Zipper Collar",
-        "price": 390000,
-        "currency": "IDR",
-        "image": "assets/img/product/BASIC SWEATSHIRT ZIPPER COLLAR.jpg",
-        "category": "Men"
-      },
-      {
-        "id": 24,
-        "name": "Linen Shirt",
-        "price": 290000,
-        "currency": "IDR",
-        "image": "assets/img/product/LINEN SHIRT.jpg",
-        "category": "Men"
-      },
-      {
-        "id": 25,
-        "name": "Bisban Campuh Jacket",
-        "price": 375000,
-        "currency": "IDR",
-        "image": "assets/img/product/BISBAN CAMPUH JACKET.jpg",
-        "category": "Men"
-      },
-      {
-        "id": 26,
-        "name": "Suede Effect Jacket",
-        "price": 479990,
-        "currency": "IDR",
-        "image": "assets/img/product/SUEDE EFFECT JACKET.jpg",
-        "category": "Men"
-      },
-      {
-        "id": 27,
-        "name": "Relaxed Fit Zipper Outer Shirt",
-        "price": 425000,
-        "currency": "IDR",
-        "image": "assets/img/product/RELAXED FIT ZIPPER OUTER SHIRT.jpg",
-        "category": "Men"
-      },
-      {
-        "id": 28,
-        "name": "Vertical Structured Polo Shirt",
-        "price": 290000,
-        "currency": "IDR",
-        "image": "assets/img/product/VERTICAL STRUCTURED POLO SHIRT.jpg",
-        "category": "Men"
-      },
-      {
-        "id": 29,
-        "name": "Imitation Leather Outer Shirt",
-        "price": 300000,
-        "currency": "IDR",
-        "image": "assets/img/product/IMITATION LEATHER OUTER SHIRT.jpg",
-        "category": "Men"
-      },
-      {
-        "id": 30,
-        "name": "Suede Effect Bomber Jacket",
-        "price": 450000,
-        "currency": "IDR",
-        "image": "assets/img/product/SUEDE EFFECT BOMBER JACKET.jpg",
-        "category": "Men"
-      },
-      {
-        "id": 31,
-        "name": "Contrast Collar Polo Shirt",
-        "price": 325000,
-        "currency": "IDR",
-        "image": "assets/img/product/CONTRAST COLLAR POLO SHIRT.jpg",
-        "category": "Men"
-      },
-      {
-        "id": 32,
-        "name": "Contrast Rib Basic T-Shirt",
-        "price": 225000,
-        "currency": "IDR",
-        "image": "assets/img/product/CONTRAST RIB BASIC T-SHIRT.jpg",
-        "category": "Men"
-      }
+        id: 17,
+        name: "Bomber Jacket",
+        price: 425000,
+        image: "assets/img/product/jaket bomber ringan.jpg",
+        description: "Versatile bomber jacket with ribbed collar and cuffs. Lightweight design perfect for casual outings, with practical side pockets.",
+        sizes: ["S", "M", "L", "XL"],
+        colors: ["Black", "Navy", "Olive"],
+        material: "65% Polyester, 35% Cotton",
+        category: "Men"
+    },
+    {
+        id: 18,
+        name: "Relief Cambridge T-Shirt",
+        price: 350000,
+        image: "assets/img/product/kaus teks relief cambridge.jpg",
+        description: "Classic tee featuring embossed Cambridge text. Comfortable regular fit with premium cotton fabric for everyday style.",
+        sizes: ["S", "M", "L", "XL"],
+        colors: ["White", "Black", "Grey"],
+        material: "100% Cotton",
+        category: "Men"
+    },
+    {
+        id: 19,
+        name: "Cotton Linen Shirts",
+        price: 332000,
+        image: "assets/img/product/kemeja linen katun.jpg",
+        description: "Breathable cotton-linen blend shirt with relaxed fit. Perfect for warm weather with a natural, textured look and feel.",
+        sizes: ["S", "M", "L", "XL"],
+        colors: ["White", "Beige", "Light Blue"],
+        material: "55% Linen, 45% Cotton",
+        category: "Men"
+    },
+    {
+        id: 20,
+        name: "Striped Jacquard Polo Shirt",
+        price: 385000,
+        image: "assets/img/product/KEMEJA POLO JACQUARD BERGARIS.jpg",
+        description: "Sophisticated polo shirt with textured jacquard stripes. Features classic collar and partial button placket for a refined casual look.",
+        sizes: ["S", "M", "L", "XL"],
+        colors: ["Navy", "Burgundy", "Forest Green"],
+        material: "95% Cotton, 5% Elastane",
+        category: "Men"
+    },
+    {
+        id: 21,
+        name: "Sweatshirt Plain Hooded",
+        price: 560000,
+        image: "assets/img/product/SWEATSHIRT PLAIN HOODED.jpg",
+        description: "Minimalist hooded sweatshirt with kangaroo pocket. Soft brushed interior provides warmth and comfort for everyday casual wear.",
+        sizes: ["S", "M", "L", "XL", "XXL"],
+        colors: ["Black", "Grey", "Navy"],
+        material: "80% Cotton, 20% Polyester",
+        category: "Men"
+    },
+    {
+        id: 22,
+        name: "Imitation Leather Jacket",
+        price: 645000,
+        image: "assets/img/product/IMITATION LEATHER JACKET.jpg",
+        description: "Sleek imitation leather jacket with zippered front. Features quilted lining and multiple pockets for a modern, edgy appearance.",
+        sizes: ["S", "M", "L", "XL"],
+        colors: ["Black", "Brown"],
+        material: "100% Polyurethane Outer, 100% Polyester Lining",
+        category: "Men"
+    },
+    {
+        id: 23,
+        name: "Basic Sweatshirt Zipper Collar",
+        price: 390000,
+        image: "assets/img/product/BASIC SWEATSHIRT ZIPPER COLLAR.jpg",
+        description: "Casual sweatshirt with stand collar and quarter-zip design. Perfect lightweight layer for transitional weather with ribbed trim.",
+        sizes: ["S", "M", "L", "XL"],
+        colors: ["Grey", "Navy", "Black"],
+        material: "65% Cotton, 35% Polyester",
+        category: "Men"
+    },
+    {
+        id: 24,
+        name: "Linen Shirt",
+        price: 290000,
+        image: "assets/img/product/LINEN SHIRT.jpg",
+        description: "Classic linen shirt with button-down design. Breathable fabric perfect for warm weather with a relaxed yet polished appearance.",
+        sizes: ["S", "M", "L", "XL"],
+        colors: ["White", "Beige", "Light Blue"],
+        material: "100% Linen",
+        category: "Men"
+    },
+    {
+        id: 25,
+        name: "Bisban Campuh Jacket",
+        price: 375000,
+        image: "assets/img/product/BISBAN CAMPUH JACKET.jpg",
+        description: "Unique jacket with distinctive textile binding details. Combines traditional elements with modern cut for a standout casual piece.",
+        sizes: ["S", "M", "L", "XL"],
+        colors: ["Black", "Navy"],
+        material: "70% Cotton, 30% Polyester",
+        category: "Men"
+    },
+    {
+        id: 26,
+        name: "Suede Effect Jacket",
+        price: 479990,
+        image: "assets/img/product/SUEDE EFFECT JACKET.jpg",
+        description: "Premium jacket with luxurious faux suede finish. Features snap button closure and clean lines for a sophisticated silhouette.",
+        sizes: ["S", "M", "L", "XL"],
+        colors: ["Tan", "Dark Brown"],
+        material: "90% Polyester, 10% Elastane",
+        category: "Men"
+    },
+    {
+        id: 27,
+        name: "Relaxed Fit Zipper Outer Shirt",
+        price: 425000,
+        image: "assets/img/product/RELAXED FIT ZIPPER OUTER SHIRT.jpg",
+        description: "Versatile shirt jacket with full zipper closure. Relaxed fit allows for easy layering with practical chest pockets.",
+        sizes: ["M", "L", "XL", "XXL"],
+        colors: ["Olive", "Grey", "Navy"],
+        material: "60% Cotton, 40% Polyester",
+        category: "Men"
+    },
+    {
+        id: 28,
+        name: "Vertical Structured Polo Shirt",
+        price: 290000,
+        image: "assets/img/product/VERTICAL STRUCTURED POLO SHIRT.jpg",
+        description: "Modern polo with vertical textured stripes. Tailored fit with structured fabric provides a smart appearance for casual occasions.",
+        sizes: ["S", "M", "L", "XL"],
+        colors: ["White", "Blue", "Black"],
+        material: "100% Cotton Piqué",
+        category: "Men"
+    },
+    {
+        id: 29,
+        name: "Imitation Leather Outer Shirt",
+        price: 300000,
+        image: "assets/img/product/IMITATION LEATHER OUTER SHIRT.jpg",
+        description: "Contemporary shirt jacket in smooth imitation leather. Features button closure and shirt collar for a refined yet edgy look.",
+        sizes: ["S", "M", "L", "XL"],
+        colors: ["Black", "Brown"],
+        material: "100% Polyurethane Outer, 100% Polyester Lining",
+        category: "Men"
+    },
+    {
+        id: 30,
+        name: "Suede Effect Bomber Jacket",
+        price: 450000,
+        image: "assets/img/product/SUEDE EFFECT BOMBER JACKET.jpg",
+        description: "Classic bomber silhouette with soft suede-like finish. Features ribbed collar, cuffs and hem with front zip closure.",
+        sizes: ["S", "M", "L", "XL"],
+        colors: ["Camel", "Grey", "Navy"],
+        material: "90% Polyester, 10% Elastane",
+        category: "Men"
+    },
+    {
+        id: 31,
+        name: "Contrast Collar Polo Shirt",
+        price: 325000,
+        image: "assets/img/product/CONTRAST COLLAR POLO SHIRT.jpg",
+        description: "Distinctive polo with contrasting collar. Premium piqué fabric offers comfort while the two-tone design adds visual interest.",
+        sizes: ["S", "M", "L", "XL"],
+        colors: ["Navy/White", "Black/Grey", "White/Navy"],
+        material: "100% Cotton Piqué",
+        category: "Men"
+    },
+    {
+        id: 32,
+        name: "Contrast Rib Basic T-Shirt",
+        price: 225000,
+        image: "assets/img/product/CONTRAST RIB BASIC T-SHIRT.jpg",
+        description: "Essential t-shirt with contrasting ribbed neckline. Soft cotton jersey with regular fit for everyday comfort and style.",
+        sizes: ["S", "M", "L", "XL", "XXL"],
+        colors: ["White", "Black", "Grey"],
+        material: "100% Cotton",
+        category: "Men"
+    }
 ];
 
 // Format price to currency
@@ -422,18 +470,6 @@ function openProductModal(productId) {
     // Reset quantity to 1
     document.getElementById('quantityInput').value = 1;
     
-    // Update wishlist button in modal
-    const addToWishlistBtn = document.getElementById('addToWishlistBtn');
-    const icon = addToWishlistBtn.querySelector('i');
-    
-    if (window.isInWishlist && window.isInWishlist(product.id)) {
-        icon.className = 'bi bi-heart-fill';
-        addToWishlistBtn.className = 'btn btn-danger ms-2';
-    } else {
-        icon.className = 'bi bi-heart';
-        addToWishlistBtn.className = 'btn btn-outline-danger ms-2';
-    }
-    
     // Store current product ID in modal for add to cart functionality
     document.getElementById('productModal').setAttribute('data-current-product-id', product.id);
     
@@ -477,14 +513,14 @@ function sortProducts() {
     const sortValue = document.getElementById('sortSelect').value;
     let sortedProducts = [...products];
     
-    // Apply category filter first
+    // Apply current category filter first (don't change it here)
     if (currentCategoryFilter !== 'all') {
         sortedProducts = sortedProducts.filter(product => 
             product.category.toLowerCase() === currentCategoryFilter.toLowerCase()
         );
     }
     
-    // Then apply sorting
+    // Apply sorting without changing category filter
     switch (sortValue) {
         case 'price-low':
             sortedProducts.sort((a, b) => a.price - b.price);
@@ -496,19 +532,18 @@ function sortProducts() {
             sortedProducts.sort((a, b) => a.name.localeCompare(b.name));
             break;
         case 'mens':
-            currentCategoryFilter = 'men';
+            // Just sort, don't change filter here
             sortedProducts = sortedProducts.filter(product => 
                 product.category.toLowerCase() === 'men'
             );
             break;
         case 'womens':
-            currentCategoryFilter = 'women';
+            // Just sort, don't change filter here
             sortedProducts = sortedProducts.filter(product => 
                 product.category.toLowerCase() === 'women'
             );
             break;
         default:
-            currentCategoryFilter = 'all';
             // Default sorting (by ID)
             sortedProducts.sort((a, b) => a.id - b.id);
     }
@@ -546,7 +581,7 @@ document.addEventListener('DOMContentLoaded', function() {
         sortSelect.addEventListener('change', sortProducts);
     }
     
-    // Add category filter buttons if they exist
+    /// Add category filter buttons if they exist
     const categoryButtons = document.querySelectorAll('[data-category-filter]');
     categoryButtons.forEach(button => {
         button.addEventListener('click', function() {
@@ -555,6 +590,9 @@ document.addEventListener('DOMContentLoaded', function() {
             // Update active state of buttons
             categoryButtons.forEach(btn => btn.classList.remove('active'));
             this.classList.add('active');
+            
+            // Reset sort select to default
+            document.getElementById('sortSelect').value = 'default';
             
             // Apply the filter
             searchProducts();
@@ -624,48 +662,6 @@ function setupAddToCartButton() {
             // Close the modal after adding to cart
             const productModal = bootstrap.Modal.getInstance(document.getElementById('productModal'));
             productModal.hide();
-        });
-    }
-}
-
-// Add to wishlist functionality in modal
-function setupAddToWishlistButton() {
-    const addToWishlistBtn = document.getElementById('addToWishlistBtn');
-    
-    if (addToWishlistBtn) {
-        addToWishlistBtn.addEventListener('click', function() {
-            const modal = document.getElementById('productModal');
-            const productId = parseInt(modal.getAttribute('data-current-product-id'));
-            const product = products.find(p => p.id === productId);
-            
-            if (!product) return;
-            
-            // Toggle wishlist using cart.js function if available
-            if (window.toggleWishlistItem) {
-                window.toggleWishlistItem(product);
-                
-                // Toggle the button appearance
-                const icon = this.querySelector('i');
-                if (icon.classList.contains('bi-heart')) {
-                    icon.classList.replace('bi-heart', 'bi-heart-fill');
-                    this.classList.replace('btn-outline-danger', 'btn-danger');
-                } else {
-                    icon.classList.replace('bi-heart-fill', 'bi-heart');
-                    this.classList.replace('btn-danger', 'btn-outline-danger');
-                }
-            } else {
-                // Fallback if cart.js is not loaded
-                const icon = this.querySelector('i');
-                if (icon.classList.contains('bi-heart')) {
-                    icon.classList.replace('bi-heart', 'bi-heart-fill');
-                    this.classList.replace('btn-outline-danger', 'btn-danger');
-                    alert(`${product.name} added to your wishlist!`);
-                } else {
-                    icon.classList.replace('bi-heart-fill', 'bi-heart');
-                    this.classList.replace('btn-danger', 'btn-outline-danger');
-                    alert(`${product.name} removed from your wishlist.`);
-                }
-            }
         });
     }
 }
